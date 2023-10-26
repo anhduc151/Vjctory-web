@@ -1,0 +1,359 @@
+.container_reskin {
+  box-sizing: border-box;
+}
+
+.header_content_left_title {
+  color: #878fd9;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header_content_left_context {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.header_content_left_logoapp {
+  margin-top: 30px;
+  display: flex;
+}
+
+.logo_ios {
+  margin-right: 10px;
+}
+
+.logo_mobiles:hover {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px #fff;
+}
+
+/* css reskin after */
+.reskin_after {
+  width: 100%;
+  height: 210vh;
+  text-align: center;
+  padding: 16% 0;
+  position: relative;
+}
+
+.reskin_after_text {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  z-index: 2;
+}
+
+.reskin_after_text_3pic {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 2;
+}
+
+.reskin_after_text_p {
+  width: 700px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 30px;
+  background: linear-gradient(90deg, #f15f9c 40.91%, #b226ce 60.46%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.reskin_after::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0.8) 95%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.reskin_after_box1 {
+  width: 100%;
+}
+
+.reskin_after_bottom {
+  width: 100%;
+  padding-right: 40%;
+  text-align: end;
+}
+
+.reskin_after_box1:nth-child(1) {
+  transform: translateX(25%) translateY(0);
+}
+
+.reskin_after_box1:nth-child(2) {
+  transform: translateX(0%) translateY(-50%);
+}
+
+.reskin_after_box1:nth-child(3) {
+  transform: translateX(-25%) translateY(-80%);
+}
+
+.reskin_after_box1:nth-child(4) {
+  transform: translateX(0px) translateY(-110%);
+}
+
+.reskin_after_box1:nth-child(5) {
+  transform: translateX(25%) translateY(-140%);
+}
+
+.reskin_after_h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #6461ff;
+}
+
+.reskin_after_p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #f2f2f2;
+  opacity: 0.8;
+}
+
+/* css reskin header */
+.reskin_header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center !important;
+  padding-top: 10%;
+  position: relative;
+}
+
+.reskin_header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.5) 80%,
+    rgba(0, 0, 0, 0.8) 90%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.reskin_header_content_left {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.reskin_header_content_right,
+.reskin_header_content_left {
+  z-index: 10;
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .reskin_after_box1:nth-child(1) {
+    transform: translateX(35%) translateY(0);
+  }
+
+  .reskin_after_box1:nth-child(2) {
+    transform: translateX(2%) translateY(-50%);
+  }
+
+  .reskin_after_box1:nth-child(3) {
+    transform: translateX(-30%) translateY(-80%);
+  }
+
+  .reskin_after_box1:nth-child(4) {
+    transform: translateX(2%) translateY(-110%);
+  }
+
+  .reskin_after_box1:nth-child(5) {
+    transform: translateX(35%) translateY(-140%);
+  }
+
+  .reskin_after_text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+  }
+
+  .reskin_after_text_3pic {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    z-index: 2;
+  }
+
+  .reskin_after_text_p {
+    width: 700px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 30px;
+    background: linear-gradient(90deg, #f15f9c 40.91%, #b226ce 60.46%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .reskin_header {
+    display: flex !important;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 15% 5%;
+  }
+
+  .header_content_left_title_p {
+    font-size: 1rem;
+  }
+
+  .reskin_header_content_left {
+    width: 60%;
+  }
+
+  .header_content_left_context {
+    font-size: 2rem;
+    font-family: "Roboto";
+  }
+
+  .reskin_after_box1:nth-child(1) {
+    transform: translateX(0) translateY(0);
+  }
+
+  .reskin_after_box1:nth-child(2) {
+    transform: translateX(0%) translateY(-0%);
+  }
+
+  .reskin_after_box1:nth-child(3) {
+    transform: translateX(0%) translateY(0%);
+  }
+
+  .reskin_after_box1:nth-child(4) {
+    transform: translateX(0%) translateY(0%);
+  }
+
+  .reskin_after_box1:nth-child(5) {
+    transform: translateX(0%) translateY(0%);
+  }
+
+  .reskin_after {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 30%;
+  }
+
+  .reskin_after_text {
+    position: absolute;
+    top: -4%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+  }
+
+  .reskin_after_text_3pic {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+  }
+
+  .reskin_after_text_p {
+    width: 700px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 30px;
+    background: linear-gradient(90deg, #f15f9c 40.91%, #b226ce 60.46%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reskin_header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20% 5%;
+  }
+  .reskin_after_text_p {
+    width: 300px;
+    line-height: 18px;
+    font-size: 0.8rem;
+  }
+
+  .header_content_left_context {
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    line-height: 30px;
+  }
+
+  .reskin_header_content_left {
+    width: 80%;
+  }
+
+  .logo_mobiles {
+    width: 100%;
+    height: 100%;
+  }
+
+  .reskin_after {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 34%;
+  }
+
+  .reskin_after_images {
+    width: 50%;
+    height: 70%;
+  }
+
+  .reskin_after_h2 {
+    font-size: 2rem;
+  }
+
+  .reskin_after_p {
+    font-size: 1rem;
+  }
+
+  .reskin_after_bottom {
+    padding-right: 25%;
+  }
+
+  .other_h1_name {
+    font-size: 2rem;
+  }
+}

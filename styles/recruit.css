@@ -1,0 +1,502 @@
+.recruit_hiring {
+  width: 100%;
+  padding: 5% 0;
+  display: flex;
+  padding-right: 2%;
+}
+
+.recruit_hiring_img {
+  width: 40%;
+}
+
+.recruit_hiring_slider {
+  width: 70%;
+  padding: 0 6%;
+}
+
+.recruit_text1 {
+  padding: 2% 19%;
+  padding-bottom: 4rem;
+}
+
+.recruit_great {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.recruit_great .recruit_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.recruit_lorem {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* css recruit_form */
+
+.recruit_form_help {
+  padding-bottom: 4rem;
+  margin: 0 10%;
+}
+
+.recruit_form {
+  background-image: url("../public/images/recruit2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 2%;
+}
+
+.recruit_doyou {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.recruit_form_lorem1 {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.recruit_button_support {
+  background: #ed1556;
+  padding: 6%;
+  border-radius: 37.5px;
+  border: none;
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  width: 20rem;
+}
+
+.recruit_button_support:hover {
+  background: #ed1556;
+  transform: translateX(-5px) translateY(-5px);
+  box-shadow: 5px 5px 0 0 #121212;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+
+
+/* Responsive Recruit */
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .recruit_hiring {
+    gap: 2%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .recruit_hiring_imgs {
+    max-width: 100%;
+    max-height: 100%;
+    height: 74%;
+  }
+
+  .recruit_hiring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .recruit_doyou {
+    font-size: 2.5rem;
+  }
+
+  .recruit_form_lorem1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recruit_great .recruit_h4 {
+    font-size: 1.6rem;
+  }
+
+  .recruit_lorem {
+    font-size: 1rem;
+  }
+
+  .recruit_doyou {
+    font-size: 1rem !important;
+  }
+
+  .recruit_form_lorem1 {
+    font-size: 0.7rem !important;
+  }
+
+  .recruit_button_support {
+    font-size: 0.8rem !important;
+    width: 5rem !important;
+  }
+
+  .recruit_form {
+    gap: 0.5rem;
+  }
+}
+
+/* css header scruit */
+.header_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10% 30%;
+}
+
+.header_achieve {
+  text-transform: uppercase;
+  font-family: "Titan One", cursive;
+  font-size: 7rem;
+  color: #ed1556;
+}
+
+.header_together {
+  display: flex;
+  font-family: "Titan One", cursive;
+  align-items: center;
+  font-size: 7rem;
+  text-transform: uppercase;
+  color: #ed1556;
+}
+
+.header_name1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header_image {
+  margin-right: 2rem;
+  height: 5.5rem;
+  width: 5.5rem;
+}
+
+.header_greate {
+
+  font-family: "Josefin Sans", sans-serif;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.header_by {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  right: -160%;
+}
+
+.header_joinus {
+  cursor: pointer;
+  padding: 20px;
+  font-family: "Titan One", cursive;
+  border-radius: 37.5px;
+  width: 10rem;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ed1556;
+  border: none;
+}
+
+.header_joinus:hover {
+  transform: translateX(-5px) translateY(-5px);
+  box-shadow: 5px 5px 0 0 #ffffff;
+  transition: 0.5s;
+}
+
+.header_achieve,
+.header_together,
+.header_greate,
+.header_by,
+.photos_name1,
+.photos_name2,
+.photos_name3,
+.photos_game {
+  opacity: 0;
+}
+
+.header_achieve {
+  animation: fade-in-h1 1.6s ease forwards;
+}
+
+.header_together {
+  animation: fade-in-h1 1.5s ease forwards;
+}
+
+.header_greate,
+.header_by {
+  animation: fade-in-h2 1.5s ease forwards;
+}
+
+.photos_name1 {
+  animation: fade-in-h1 1.25s ease forwards;
+}
+
+.photos_name2 {
+  animation: fade-in-h1 1.5s ease forwards;
+}
+
+.photos_name3 {
+  animation: fade-in-h1 1.75s ease forwards;
+}
+
+
+.photos_game {
+  opacity: 0;
+  animation: fade-in-button 2s ease forwards;
+}
+
+@keyframes fade-in-h1 {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-h2 {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-button {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header_image {
+  animation: zoom-in-out 1.6s ease forwards;
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(2.2);
+  }
+
+  50% {
+    transform: scale(1.6);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* responsive recruit */
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .header_achieve {
+    font-size: 5rem;
+  }
+
+  .header_together {
+    font-size: 5rem;
+  }
+
+  .header_image {
+    margin-right: 1rem;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .header_greate {
+    font-size: 1.5rem;
+  }
+
+  .header_by {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .header_home {
+    padding: 20% 12%;
+  }
+
+  .header_achieve {
+    font-size: 4.5rem;
+  }
+
+  .header_together {
+    font-size: 4.5rem;
+  }
+
+  .header_create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .header_greate,
+  .header_by {
+    right: 0;
+    margin-bottom: 5%;
+  }
+  .header_image {
+    margin-right: 1rem;
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .recruit_doyou {
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .recruit_form_lorem1 {
+    font-size: 1rem;
+  }
+
+  .recruit_button_support {
+    font-size: 1rem;
+    width: 7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .header_home,
+  .photos_fall,
+  .home_slider_icon,
+  .beside_images,
+  .footer_info {
+    padding: 10% 5%;
+  }
+
+  .header_achieve,
+  .header_together,
+  .header_greate,
+  .header_by,
+  .photos_name1,
+  .photos_name2,
+  .photos_name3,
+  .photos_game {
+    opacity: 1;
+  }
+
+  .header_home {
+    padding: 29% 5%;
+  }
+
+  .header_achieve {
+    font-size: 2.5rem;
+  }
+
+  .header_together {
+    font-size: 2.5rem;
+  }
+
+  .header_image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+  }
+
+  .header_greate,
+  .header_by {
+    right: 0;
+    font-size: 1rem;
+  }
+
+  .header_joinus {
+    width: 7rem;
+    font-size: 10px;
+  }
+
+  .recruit_button_support {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* css modal */
+
+.ant-modal-content {
+  background: linear-gradient(145deg, #8D269C 0%, #4317A7 100%) !important;
+}
+
+/* .ant-modal-title {
+  color: white !important;
+  background: linear-gradient(145deg, #8D269C 0%, #4317A7 220%) !important
+} */
+
+.ant-form-item-required {
+  color: white !important;
+}
+.form_antd_title{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.form_antd_p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.button_antd {
+  background: #ed1556;
+  border-radius: 37.5px;
+  font-family: "Titan One";
+  color: #fff;
+  width: 30%;
+}
+
+.text_description {
+  color: #121212;
+  padding: 0% 10% 5%;
+}

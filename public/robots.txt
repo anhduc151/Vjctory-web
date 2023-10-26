@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+
+# Host
+Host: https://vjctory.com/
+
+# Sitemaps
+Sitemap: https://vjctory.com/sitemap.xml

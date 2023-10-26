@@ -1,0 +1,74 @@
+/* css navbar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(29, 29, 29);
+}
+
+.li_custom {
+  list-style: none;
+  color: #ffffff;
+  background-color: rgb(44, 44, 44);
+  width: 220px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.li_logout{
+  margin-bottom: 30px;
+}
+
+.sidebar_logo {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.sidebar_logo_images {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.sidebar_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sidebar_menu li.active {
+  font-weight: bold;
+  color: #000000;
+  width: 220px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(192, 192, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar_logout_button {
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(185, 185, 185);
+  width: 220px;
+  height: 40px;
+  font-size: 16px;
+}

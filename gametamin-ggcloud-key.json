@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gametamin",
+  "private_key_id": "f1e7c5e1e28ee8427646f5873c6c245ab572e0bd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCNByWIkdzbI3nE\nJBywWFiflZzzgmduV6p86iHDTidhbS5IY4ynZ0aKyg1EzEv6IsDrfE15TvMYxOqr\nLavae+HQGvtrZt3Y9Bq2RyKtSc8lWiTr+aoRBCHpQCVXPSTybTGBsVtFcZ2z7+FJ\nGHctMst6KZNB3F17sw42I0hh4ohq36mLh0XE0hkrOa/H8v5133u2D7dtHpP1wxX8\nOPDbua+WNTC6Hd1Z4EvKjNwjhBF+BpaAqqZM5DlF/gIR/RJqQrxnAOFnaAB1TFJs\nyZ7vLQfWgygMlkQYCskmpxqGdZ/vI9qqwxKPl33wTYZ453gJFO6Pv0aforaDnF8M\nakHDjjHLAgMBAAECggEANNxp6C/sXcOFX8y9aCglR+P3iZrmlAiOIfZMo31G65DW\nGVIfJZxjZ6BmqtP84oxmTZ4xF/hMzIr6/yDGWsW2lZ+Xf+F15F1TKeGuENAqsfCB\nCGZzpZ8r6tcdZ/7GO4xMUzWcZYI5v3l5s0FVYn64oFi3Fqe37qbl+8rr1azov036\nMtHesZRk1SMgULA9ya9uGsiluUuj31SVsTYUGNjVUyPR0WCK/2vBdFTySZxej4yP\nd4EdQLul+6gP/F3JY6buhnnGp+mr9jrl52W6qHGKg4rAxsn0VvEPYYMH+lOqCMT/\n+HXDCN3pCr+ghiFibONIonBBhMZyEl+dlr0SWgcSmQKBgQDBewwiXgyzHgIx8hCc\nqSFZWatuOohwdI13kDimOg7W8FP/bq0MbHXhMUhg5KbNHEVGlU4G/PZ4XeTQhJZK\nGwzxh9ldCVTsv2srtgQ+U2kq3YS/fJMNWHsNCBcVWolDdpDAQbKJBICegjT48fSx\nlnjtN47oSMQXAUslZZh+CT3HDwKBgQC6mSVIMcnCyRfLqfaILAB32vNy6i+J97H5\n8bLjm2T62d7Dy7PiR4AQE/7O8aKqiwMMviiPU9Z2/tECPCtqKJXYEj88EUlnmmu2\nO8Ltg3M2gwguKor4oLh37TlEl5Gmco+oCrvGgxDETpB9Nbm2bWGD6o7D78LnaF8W\nAcptUCXJhQKBgH7Lqc8X/ZCg2OVscrCIMl/A4RTy7RlteIxjiox9Pd5kT1f1axja\nN4Jl7r34+ssufMPd8u2nd8q4Fc0FJwzXn2rmEW/kPrCMXaqetTc3KJO76lQnSqOT\nWcjXhXEsDQqWOBSWuW8L8VJvmFGRF0AOkZ88Kr5VeZRt95ZBd2cZnU/HAoGAJ/pR\ns4L/QB1HXNogOJJ80zD0waUM5FlOJ0eyVPNhEiGFiZtmAc/hzxAJoprAiBtaXuuK\n0xJaO4pii0EK6Caj2/Qk2iC2Al1iQFvTaoGkOISgRwvUVGpSu1b20wxKJ0gaIR2T\nl3dTK0vNxxWwoTYUE2g4iCAhOOTyoktl7D+kqOUCgYEAgM/0dxBlakvYSipigSv5\nKg4qzRChhgRFB3unmdcc8nFyPQ+R67inrc3V0FtGuWGm2wDAMBKwjz+9Ow1Oy0iW\nYCimZJU0aSphfDgwsArxH91G+3ydbHsmG7NzRNx9HlHXlD6xZ4w1u2DuKTxxKfER\nV9em5eq1esJpW68yttP/CXU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gametamin@gametamin.iam.gserviceaccount.com",
+  "client_id": "101086563477193980398",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gametamin%40gametamin.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

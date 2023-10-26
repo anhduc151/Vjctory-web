@@ -1,0 +1,148 @@
+.besidefooter_line_imgs {
+  width: 100%;
+  margin: 5% 0 ;
+}
+
+.besidefooter{
+  padding-bottom: 5%;
+}
+
+.beside_form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+
+.beside_form3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.besideform_p {
+  width: 20rem;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #f3f3f3;
+  width: 300px;
+  word-wrap: break-word;
+}
+
+.beside_form2 {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.beside_form3_input {
+  background: #f0e9e9;
+  outline: none;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 459px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+.beside_form3_input::placeholder {
+  color: #ed1556;
+}
+
+.beside_form3_buttons {
+  background: #ed1556;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 459px;
+  height: 50px;
+}
+
+
+
+.beside_form2_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.beside_form2_p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+
+
+
+
+@media only screen and (max-width: 1300px){
+  .beside_form{
+    justify-content: center;
+    align-items: center;
+
+  }
+  .beside_form3{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .beside_form3_buttons{
+    width: 250px;
+  }
+  .beside_form3_input{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 768px){
+  .beside_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .beside_form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .besideform_p{
+    display: none;
+  }
+  .beside_form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .beside_form3{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .beside_form3_buttons{
+    width: 330px;
+  }
+  .beside_form3_input{
+    width: 330px;
+  }
+}
+
+

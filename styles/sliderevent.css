@@ -1,0 +1,10 @@
+.slider_events_images {
+  width: 95%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.slider_event{
+  padding: 3% 7% 0%;
+}

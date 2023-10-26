@@ -1,0 +1,1266 @@
+/* css about headings */
+.aboutus_headings_background_imgs {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.aboutus_headings_images_background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.9) 90%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+/* css infor */
+
+.infor {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.infor::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0.99) 99%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.infor_number {
+  margin-bottom: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.infor_games,
+.infor_languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infor_games_h2,
+.infor_languages_h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  z-index: 10;
+}
+
+.infor_games_p,
+.infor_languages_p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  z-index: 10;
+}
+
+.infor {
+  padding: 5% 16%;
+}
+
+.infor_outgames {
+  margin-top: 14%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 2%;
+}
+
+.infor_outgames_coloumn1 {
+  width: 25%;
+  z-index: 20;
+}
+
+.infor_column1_box1 {
+  width: 100%;
+  background: #31397d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.infor_column1_box1:hover {
+  background-color: #ed1556;
+}
+
+.infor-box1-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2%;
+  padding: 4%;
+}
+
+.infor_box1_header_h5 {
+  border-right: 3px solid #fff;
+  padding-right: 2%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.infor_box1_header_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* .infor_box1_imgs {
+  margin-left: 4%;
+} */
+
+.infor_outgames_coloumn2 {
+  width: 30%;
+  z-index: 20;
+}
+
+.infor_column1_box2 {
+  width: 100%;
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.infor_box2_child1 {
+  width: 100%;
+  padding: 5%;
+  background: #31397d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.infor_box2_child1:hover {
+  background-color: #ed1556;
+}
+
+.infor_box2_child1_h4 {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.infor_box2_child1_h5 {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.infor_box2_p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  padding: 5%;
+  color: #fff;
+}
+
+.infor_box2_child2 {
+  width: 100%;
+  background: #31397d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.infor_box2_child2:hover {
+  background-color: #ed1556;
+}
+
+.infor_box2_header_h5 {
+  border-right: 3px solid #fff;
+  padding-right: 2%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.infor_box2_header_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.infor_box2_child2_header {
+  display: flex;
+  gap: 2%;
+  padding: 5%;
+}
+
+.infor_box2_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.infor_outgames_coloumn3 {
+  width: 25%;
+  z-index: 20;
+}
+
+.infor_box3_header_h5 {
+  border-right: 3px solid #fff;
+  padding-right: 2%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.infor_box3_header_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.infor_box3_header {
+  display: flex;
+  padding: 5%;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.infor_column1_box3 {
+  background: #31397d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.infor_column1_box3:hover {
+  background-color: #ed1556;
+}
+
+.infor_box3_circle1 {
+  /* padding: 9%;  */
+  text-align: center;
+}
+
+.infor_box3_images {
+  width: 200px;
+  height: 200px;
+}
+
+.child1_yellow,
+.child_blue,
+.child_purple,
+.child_oranges,
+.child_pink {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.infor_box3_child1_p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start !important;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.infor_box3_child1_phantram {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.infor_box3_color {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
+}
+
+.infor_box3_child1 {
+  padding: 9% 0;
+}
+
+.home_slider_h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.home_slider_h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+}
+
+.home_slider_header {
+  padding: 6% 0;
+}
+
+.infor_box1-images {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.infor_box1_images_left,
+.infor_box1_images_right {
+  display: flex;
+  flex-direction: column;
+}
+
+/* css out mission */
+.about_outmission {
+  padding: 5% 19%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.out_mission_form {
+  background: linear-gradient(180deg, #95289b 0%, rgba(63, 23, 174, 0.95) 100%);
+  border-radius: 30px;
+  width: 100%;
+}
+
+.about_outmission_headings {
+  text-align: center;
+  padding: 2% 0;
+}
+
+.about_outmission_headings_h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48.83px;
+  line-height: 65px;
+  color: #ffffff;
+}
+
+.about_outmission_headings_p {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+  padding: 2% 10%;
+}
+
+.about_outmission_infor {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about_outmission_infor_box1,
+.about_outmission_infor_box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.outmission_infor_box1_icons {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(90.81deg, #b84877 8.91%, #761b94 95.46%);
+}
+
+.bxs-user,
+.bx-brightness {
+  font-size: 2rem;
+}
+
+.outmission_infor_box1_p {
+  background: linear-gradient(90.81deg, #b84877 8.91%, #761b94 95.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 27px;
+}
+
+/* css about hover */
+.about_hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
+}
+
+.about_hover_box1,
+.about_hover_box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_hover_img1,
+.about_hover_img2,
+.about_hover_img3,
+.about_hover_img4,
+.about_hover_img5,
+.about_hover_img6 {
+  position: relative;
+}
+
+/* css hover card */
+
+.about_hover_img1_body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fade-out 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
+  backdrop-filter: blur(7px);
+}
+
+.about_hover_img1:hover .about_hover_img1_body {
+  opacity: 1;
+  animation: fade-in 0.4s ease-in-out;
+  background-color: rgba(0, 102, 255, 0.3);
+}
+
+.about_hover_img2:hover .about_hover_img1_body {
+  opacity: 1;
+  animation: fade-in 0.4s ease-in-out;
+  background-color: rgba(255, 166, 0, 0.3);
+}
+
+.about_hover_img3:hover .about_hover_img1_body {
+  opacity: 1;
+  animation: fade-in 0.4s ease-in-out;
+  background-color: rgba(0, 247, 255, 0.3);
+}
+
+.about_hover_img4:hover .about_hover_img1_body {
+  opacity: 1;
+  animation: fade-in 0.4s ease-in-out;
+  background-color: rgba(255, 65, 122, 0.3);
+}
+
+.about_hover_img5:hover .about_hover_img1_body {
+  opacity: 1;
+  animation: fade-in 0.4s ease-in-out;
+  background-color: rgba(183, 0, 255, 0.3);
+}
+
+.about_hover_img6:hover .about_hover_img1_body {
+  opacity: 1;
+  animation: fade-in 0.4s ease-in-out;
+  background-color: rgba(209, 238, 255, 0.3);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+/* end hover card */
+
+.about_hover_img_text {
+  position: absolute;
+  left: 5.6%;
+  top: 6.08%;
+}
+
+.about_hover_img_text_h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.about_hover_img_text_h1_1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+
+  color: #00b7c2;
+}
+
+.about_hover_img_text_h1_2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+
+  color: #4bc301;
+}
+
+.about_hover_img_text_h1_3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+
+  color: #00b2d9;
+}
+
+.about_hover_img_text_h1_4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+
+  color: #fe3d6a;
+}
+
+.about_hover_img_text_h1_5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+
+  color: #ef3dfe;
+}
+
+.about_hover_img_text_h1_6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+
+  color: #e3fe3d;
+}
+
+.about_hover_img_text_p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 103.52%;
+
+  color: #ffffff;
+}
+
+/* Responsive home */
+@media only screen and (min-width: 1500px) and (max-width: 2060px) {
+  .infor {
+    padding: 5% 16%;
+  }
+
+  .infor_box1_images_left,
+  .infor_box1_images_right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infor_outgames {
+    margin-top: 14%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2%;
+  }
+
+  .infor_outgames_coloumn1 {
+    width: 32%;
+  }
+
+  .infor_column1_box1 {
+    width: 100%;
+    background: #31397d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .infor-box1-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    padding: 4%;
+  }
+
+  .infor_box1_header_h5 {
+    border-right: 3px solid #fff;
+    padding-right: 2%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .infor_box1_header_h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .infor_outgames_coloumn2 {
+    width: 30%;
+  }
+
+  .infor_column1_box2 {
+    width: 100%;
+    gap: 1.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infor_box2_child1 {
+    width: 100%;
+    padding: 5%;
+    height: 240px;
+    background: #31397d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .infor_box2_child1_h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .infor_box2_child1_h5 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #fff;
+  }
+
+  .infor_box2_p {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding: 5%;
+    color: #fff;
+  }
+
+  .infor_box2_child2 {
+    width: 100%;
+    height: 240px;
+    background: #31397d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .infor_box2_header_h5 {
+    border-right: 3px solid #fff;
+    padding-right: 2%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .infor_box2_header_h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .infor_box2_child2_header {
+    display: flex;
+    gap: 2%;
+    padding: 5%;
+  }
+
+  .infor_box2_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    gap: 1rem;
+  }
+
+  .infor_outgames_coloumn3 {
+    width: 25%;
+  }
+
+  .infor_box3_header_h5 {
+    border-right: 3px solid #fff;
+    padding-right: 2%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .infor_box3_header_h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+  }
+
+  .infor_box3_header {
+    display: flex;
+    padding: 5%;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .infor_column1_box3 {
+    background: #31397d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .infor_box3_circle1 {
+    /* padding: 9%;  */
+    text-align: center;
+  }
+
+  .infor_box3_images {
+    width: 200px;
+    height: 200px;
+  }
+
+  .child1_yellow,
+  .child_blue,
+  .child_purple,
+  .child_oranges,
+  .child_pink {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+  }
+
+  .infor_box3_child1_p {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start !important;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .infor_box3_child1_phantram {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .infor_box3_color {
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+  }
+
+  .infor_box3_child1 {
+    padding: 9% 0;
+  }
+
+  .home_slider_h2 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #31397d;
+  }
+
+  .home_slider_h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #31397d;
+  }
+
+  .home_slider_header {
+    padding: 6% 0;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .outmission_infor_box1_icons {
+    width: 160px;
+    height: 50px;
+  }
+
+  .infor_box1_images_left,
+  .infor_box1_images_right {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .infor_box2_images {
+    gap: 1rem;
+  }
+
+  /* css gradient */
+  .aboutus_headings_images_background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 70%,
+      rgba(0, 0, 0, 0.99) 85%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .infor {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .infor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0) 70%,
+      rgba(0, 0, 0, 0.99) 99%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .infor {
+    padding: 2% 10%;
+  }
+
+  .infor_box1_imgs {
+    width: 120px;
+    height: 120px;
+  }
+
+  .infor_column1_box2 {
+    gap: 1rem;
+  }
+
+  .infor_box2_child2_img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .infor_box3_images {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Home slider icons */
+  .home_slider_icon {
+    padding: 2% 5%;
+    background-color: #fdebf0;
+    width: 100% !important;
+  }
+
+  .home_slider_header {
+    padding: 3% 0;
+  }
+
+  .home_slider_h2 {
+    font-size: 30px;
+  }
+
+  .home_slider_h4 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .outmission_infor_box1_icons {
+    width: 160px;
+    height: 50px;
+  }
+
+  .infor_box2_images {
+    gap: 1rem;
+  }
+
+  /* css gradient */
+  .aboutus_headings_images_background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0.99) 85%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .infor {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .infor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0) 95%,
+      rgba(0, 0, 0, 0.99) 99%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  /* infor */
+
+  .infor_games_h2,
+  .infor_languages_h2 {
+    font-size: 3rem;
+  }
+
+  .infor_games_p,
+  .infor_languages_p {
+    font-size: 1rem;
+  }
+
+  .infor_outgames {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .infor_outgames_coloumn1,
+  .infor_outgames_coloumn2,
+  .infor_outgames_coloumn3 {
+    width: 100%;
+  }
+
+  .infor_column1_box2 {
+    gap: 2rem;
+  }
+
+  .infor_column1_box1,
+  .infor_column1_box2 {
+    width: 100%;
+  }
+
+  .about_hover_images {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about_hover_img1_body {
+    display: none;
+  }
+  .about_hover {
+    padding: 0% 3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* css gradient */
+  .aboutus_headings_images_background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0.99) 100%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  .infor {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .infor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0) 95%,
+      rgba(0, 0, 0, 0.99) 99%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+
+  /* infor */
+
+  .infor_box2_child2_img,
+  .infor_box1_imgs {
+    width: 100px;
+    height: 100px;
+  }
+
+  .photos_name1,
+  .photos_name2,
+  .photos_name3 {
+    font-size: 4rem;
+  }
+
+  .photos_game {
+    width: 10rem;
+    font-size: 20px;
+  }
+
+  .beside_image {
+    width: 100%;
+  }
+
+  .beside_image1,
+  .beside_image2,
+  .beside_image3,
+  .beside_image4,
+  .beside_image5 {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .footer_text {
+    font-size: 2rem;
+  }
+
+  .footer_contact {
+    font-size: 2.5rem;
+  }
+
+  .footer_icon {
+    font-size: 2rem;
+  }
+
+  .about_outmission_headings_h2 {
+    font-size: 2rem;
+  }
+
+  .about_outmission_headings_p {
+    font-size: 1rem;
+  }
+
+  .about_outmission_infor_box1,
+  .about_outmission_infor_box2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .outmission_infor_box1_icons {
+    width: 50px;
+    height: 50px;
+  }
+
+  .features_h1_name {
+    font-size: 2rem;
+  }
+
+  .features_h3_name {
+    font-size: 1rem;
+    padding: 5%;
+  }
+
+  .about_hover_box1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_hover_box2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_hover {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 5%;
+    gap: 1%;
+  }
+}

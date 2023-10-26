@@ -1,0 +1,25 @@
+
+
+.content__container {
+  text-align: start;
+  padding: 90px 20%;
+  color: black;
+}
+
+.content__p {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.content__noidung {
+  margin: 10px 0;
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+}
+
+.li {
+  margin-left: 20px; /* hoặc bất kỳ khoảng cách nào bạn muốn giữa các mục */
+  padding-left: 10px; /* khoảng cách giữa đường kẻ và nội dung của thẻ li */
+  border-left: 2px solid rgb(255, 255, 255); /* đường kẻ ngang ở phía trước */
+}

@@ -1,0 +1,51 @@
+.content__container {
+  text-align: start;
+  padding: 90px 20%;
+}
+
+.content__p {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.content__noidung {
+  margin: 10px 0;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.ul {
+  list-style-type: disc;
+}
+
+.li {
+  margin-left: 20px; 
+  padding-left: 10px; 
+  border-left: 2px solid rgb(255, 255, 255); 
+  color: white;
+}
+
+/* .table {
+  border-collapse: collapse; 
+  width: 1252px;
+} */
+
+td,
+th {
+  border: 1px solid rgb(175, 175, 175); 
+  padding: 8px; 
+  text-align: center;
+}
+
+.table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: rgb(255, 255, 255);
+  border-collapse: collapse; 
+  width: 90%;
+  color: white;
+}

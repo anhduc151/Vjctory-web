@@ -1,0 +1,265 @@
+/* css games controllers */
+.games_controllers_images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.games_controllers {
+  position: relative !important;
+}
+
+.games_controllers_h1 {
+  position: absolute !important;
+  top: 26%;
+  left: 24%;
+  right: 20%;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 7rem;
+  background: linear-gradient(90.81deg, #bd7a96 8.91%, #9500c7 95.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.games_buttons_downloards {
+  display: flex;
+  gap: 1rem;
+}
+
+.games_buttons_downloards1 {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+/* end css games controllers */
+.game_traffic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.traffic_colum1,
+.traffic_colum3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.traffic_colum2,
+.traffic_colum4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.traffic_content_title_1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+  max-width: 700px;
+  word-wrap: break-word;
+}
+
+.traffic_content_context_2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.traffic_content_context_1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.traffic_content_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.traffic_content_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: right;
+}
+
+.games_traffic_lines {
+  width: 50%;
+}
+
+.games_traffic_imgs {
+  transition: transform 0.2s ease;
+}
+
+.games_traffic_imgs:hover {
+  filter: drop-shadow(12px 12px 7px rgba(193, 5, 105, 0.7));
+  transform: scale(1.1);
+}
+
+.outgames_buttons {
+  cursor: pointer;
+}
+
+.games_buttons_icons_images1:hover,
+.games_buttons_icons_images:hover {
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 2px #fff;
+}
+
+/* Responsive games */
+@media screen and (min-width: 1500px) and (max-width: 2060px) {
+  .games_controllers_h1 {
+    top: 26%;
+    left: 24%;
+    font-size: 6.5rem;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+  .games_controllers_h1 {
+    top: 26%;
+    left: 20%;
+    right: 20%;
+    font-size: 6rem;
+  }
+
+  .traffic_colum1,
+  .traffic_colum3 {
+    padding: 0 5%;
+  }
+
+  .traffic_colum2,
+  .traffic_colum4 {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .games_buttons_downloards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .games_buttons_downloards1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  .games_controllers_h1 {
+    top: 26%;
+    left: 25%;
+    right: 20%;
+    font-size: 4rem;
+  }
+
+  .traffic_colum1,
+  .traffic_colum3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .traffic_colum2,
+  .traffic_colum4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .traffic_figure_2 {
+    order: 1;
+  }
+
+  .traffic_content_1 {
+    order: 0;
+  }
+
+  .traffic_figure_1 {
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .games_controllers_h1 {
+    top: 26%;
+    left: 28%;
+    right: 20%;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .games_controllers_h1 {
+    top: 34%;
+    left: 30%;
+    right: 20%;
+    font-size: 1.2rem;
+  }
+
+  .games_controllers_images {
+    padding-top: 6%;
+  }
+
+  .traffic_content_title_1 {
+    font-size: 2.2rem;
+    font-family: "Segoe UI";
+    line-height: 50px;
+  }
+
+  .traffic_content_context_1 {
+    font-size: 0.5rem;
+    font-family: "Segoe UI";
+  }
+
+  .traffic_content_context_2 {
+    font-size: 0.5rem;
+  }
+
+  .outgames_buttons {
+    font-weight: 300;
+    font-size: 10px;
+    width: 182px;
+    height: 50px;
+  }
+
+  .games_traffic_imgs {
+    width: 100%;
+    height: 90%;
+  }
+
+  .traffic_colum1,
+  .traffic_colum3 {
+    padding: 0 5%;
+  }
+
+  .traffic_colum2,
+  .traffic_colum4 {
+    padding: 0 5%;
+  }
+
+  .traffic_content_1 {
+    gap: 1rem;
+  }
+}
